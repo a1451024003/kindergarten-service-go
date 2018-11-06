@@ -1,0 +1,103 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "a9Sq/X9bS1l5EA7KfRmtw4lMedY=",
+			"path": "github.com/astaxie/beego",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "zgHK1vxUJDZTXAPCw+Bls7St0Ks=",
+			"path": "github.com/astaxie/beego/config",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "9/NGkrfm/Kk+lFI3AVOJ1euD+a4=",
+			"path": "github.com/astaxie/beego/context",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "iHY0XMPlj5EfCxMN4NEmvBgdhDM=",
+			"path": "github.com/astaxie/beego/context/param",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "N5kHk4qbc10N2Lp9ltA2G76qNxs=",
+			"path": "github.com/astaxie/beego/grace",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "ochJai7DifamCfjDhMQGZYrqrDE=",
+			"path": "github.com/astaxie/beego/logs",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "MoE8R3ctm+nYy6PL5BNqelLtN04=",
+			"path": "github.com/astaxie/beego/orm",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "dXvvTC4ePe3mebX2nOoJcLKJwnc=",
+			"path": "github.com/astaxie/beego/plugins/cors",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "EDaMYv6yHO6Xu9J8loeGIUOvGoE=",
+			"path": "github.com/astaxie/beego/session",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "EOoY9qbCsWnu5FlZZnMKUKkLcMk=",
+			"path": "github.com/astaxie/beego/toolbox",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "W7HBzu7HlF18vCfNPgax7xvHXB0=",
+			"path": "github.com/astaxie/beego/utils",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "ZCQg0mUz1Azs/nmG5izr0+Sb+9U=",
+			"path": "github.com/astaxie/beego/validation",
+			"revision": "f16688817aa428d10361394015b40d096b680542",
+			"revisionTime": "2017-12-18T11:18:59Z"
+		},
+		{
+			"checksumSHA1": "9LJkKD8/3+aYz/AFaLF0FmmSmrE=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "64db0f7ebe171b596aa9b26f39a79f7413a3b617",
+			"revisionTime": "2018-05-26T09:24:51Z"
+		},
+		{
+			"checksumSHA1": "hWrKcJZDet57u2S3C1G8lxWPQg4=",
+			"path": "github.com/hprose/hprose-golang/io",
+			"revision": "6c2a3b7138ea2c7dc4a8907d644f9f134e0fae74",
+			"revisionTime": "2018-05-17T15:21:16Z"
+		},
+		{
+			"checksumSHA1": "qPDxEQZcfyAVI2XfSl3jNqdq418=",
+			"path": "github.com/hprose/hprose-golang/rpc",
+			"revision": "6c2a3b7138ea2c7dc4a8907d644f9f134e0fae74",
+			"revisionTime": "2018-05-17T15:21:16Z"
+		},
+		{
+			"checksumSHA1": "l8KL3p52ydvXeNnvhxm8RG8R0R8=",
+			"path": "github.com/hprose/hprose-golang/util",
+			"revision": "6c2a3b7138ea2c7dc4a8907d644f9f134e0fae74",
+			"revisionTime": "2018-05-17T15:21:16Z"
+		}
+	],
+	"rootPath": "kindergarten-service-go"
+}

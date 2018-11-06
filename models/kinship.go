@@ -1,0 +1,29 @@
+package models
+
+import (
+	"time"
+
+	"github.com/astaxie/beego/orm"
+)
+
+type Kinship struct {
+	Id                 int       `json:"kinship_id" orm:"column(kinship_id);auto" description:"编号"`
+	StudentId          int       `json:"student_id" orm:"column(student_id)" description:"学生序号"`
+	BabyId             int       `json:"baby_id" orm:"column(baby_id)" description:"宝宝ID"`
+	Type               int8      `json:"type" orm:"column(type)" description:"类型，1紧急联系人，2监护人"`
+	Relation           string    `json:"relation" orm:"column(relation);size(10)" description:"关系"`
+	Name               string    `json:"name" orm:"column(name);size(20)" description:"名字"`
+	Address            string    `json:"address" orm:"column(address);size(20)" description:"地址"`
+	UnitName           string    `json:"unit_name" orm:"column(unit_name);size(50)" description:"单位名称"`
+	ContactInformation string    `json:"contact_information" orm:"column(contact_information);size(11)" description:"联系方式"`
+	CreatedAt          time.Time `json:"created_at" orm:"auto_now_add"`
+	UpdatedAt          time.Time `json:"updated_at" orm:"auto_now"`
+}
+
+func (t *Kinship) TableName() string {
+	return "kinship"
+}
+
+func init() {
+	orm.RegisterModel(new(Kinship))
+}

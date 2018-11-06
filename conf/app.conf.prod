@@ -1,0 +1,23 @@
+appname = kindergarten-service-go
+httpport = 80
+runmode = dev
+autorender = false
+copyrequestbody = true
+EnableDocs = true
+
+#mysql
+DB_CONNECTION = mysql
+DB_HOST = rm-2zeh3jfm7fzle8605.mysql.rds.aliyuncs.com
+DB_PORT = 3306
+DB_DATABASE = kindergartendb
+DB_USERNAME = onemore
+DB_PASSWORD = Dea*7wjdha
+
+#rpc-client
+ONE_MORE_USER_SERVER = "http://user-go-prod/rpc/user"
+ONE_MORE_SMS_SERVER = "http://onemore-go-prod/rpc/sms"
+ONE_MORE_NOTICE_SERVER = http://onemore-go-prod/rpc/notice
+COURSEWARE_SERVER = http://courseware-go-prod/rpc/courseware
+
+#avatar
+AVATAR = "http://resourceslibary.oss-cn-hangzhou.aliyuncs.com/images/dev/20180810/o_1ckh5it3217jmi51rr116oqjstd.png"
